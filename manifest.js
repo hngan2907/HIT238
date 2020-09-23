@@ -24,6 +24,13 @@ let currencies = [
     flagURL: "https://img.geonames.org/flags/x/af.gif"
   },
   {
+    name: "Albanian lek",
+    abbreviation: "ALL",
+    symbol: "L",
+    flagURL: "https://img.geonames.org/flags/x/af.gif"
+  },
+
+  {
     name: "US Dollar",
     abbreviation: "USD",
     symbol: "\u0024",
