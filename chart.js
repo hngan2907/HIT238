@@ -18,14 +18,15 @@ const ayear = createDate(0, 0, -1);
 const ayearformat = ayear.getFullYear() + "-" + ("0" + (ayear.getMonth() + 1)).slice(-2) + "-" + ("0" + ayear.getDate()).slice(-2);
 
 
-
-
 const datedata = [];
 const ratedata = [];
 const ratenumber = [];
 
 
-function getchartdata () {
+function getchartdata() {
+
+
+
   const e = document.getElementById("curr1");
   const curr1 = e.options[e.selectedIndex].value;
   const b = document.getElementById("curr2");
@@ -48,62 +49,60 @@ function getchartdata () {
   console.log(dataURL)
 
 
-async function getAsync() {
-  const response = await fetch(dataURL);
-  const data = await response.text();
-  const rows = data.split('"\n"');
+  async function getAsync() {
+    const response = await fetch(dataURL);
+    const data = await response.text();
+    const rows = data.split('"\n"');
 
 
-  rows.forEach(row => {
-    const bb = row.split('","');
-    if (bb[1] === curr2) {
-      datedata.push(bb[0]);
-      ratedata.push(bb[2]);
-    }
-  });
-  const try1 = [];
-  ratedata.forEach (mm => try1.push(mm.replace(",",".")));
-  const getnumber = try1.map(Number);
-getnumber.forEach (kk => ratenumber.push(kk));
+    rows.forEach(row => {
+      const bb = row.split('","');
+      if (bb[1] === curr2) {
+        datedata.push(bb[0]);
+        ratedata.push(bb[2]);
+      }
+    });
+    const try1 = [];
+    ratedata.forEach(mm => try1.push(mm.replace(",", ".")));
+    const getnumber = try1.map(Number);
+    getnumber.forEach(kk => ratenumber.push(kk));
+console.log(ratedata,datedata)
+  }
 
 
-}
+  getAsync()
+    .then(bb =>
 
-
-getAsync()
-  .then(bb =>
-
-    console.log(bb)
-  );
+      console.log(bb)
+    );
 
 
   var ctx = document.getElementById('myChart').getContext('2d');
   var myChart = new Chart(ctx, {
     type: 'line',
-  data: {
-    labels: datedata,
-    datasets: [
-      {
-        label:curr2,
+    data: {
+      labels: datedata,
+      datasets: [{
+        label: curr2,
         data: ratenumber,
-        borderColor: '#af90ca',
-        backgroundColor: '#af90ca',
+        borderColor: '#424242',
+        backgroundColor: '##424242',
         fill: false,
         lineTension: 0
-      }
-    ]
-  },
-  options: {
-    scales: {
-      yAxes: [{
-        ticks: {
-          beginAtZero: true
-        }
       }]
+    },
+    options: {
+      scales: {
+        xAxes: [{
+          ticks: {
+showXLabels: 10          }
+        }],
+
+      }
     }
-  }
   });
-
-
-
 }
+
+
+var runButton = document.getElementById("renderBtn");
+runButton.addEventListener("click", getchartdata);
