@@ -43,8 +43,18 @@ function getchartdata() {
   } else if (getper == 'ayear') {
     dataURL = 'https://api.exchangerate.host/timeseries?start_date=' + encodeURI(ayearformat) + '&end_date=' + encodeURI(today) + '&base=' + encodeURI(curr1) + '&format=csv'
   } else {
-    document.getElementById('urlerr').innerHTML = "Please choose the period of the chart";
+  document.getElementById('urlerr').innerHTML = "Please choose the period of the chart";
   }
+
+if (curr1 == "") {
+  document.getElementById('curr1err').innerHTML = "Please choose the base currency"
+};
+if (curr2 == "") {
+  document.getElementById('curr2err').innerHTML = "Please choose the currency you want to compare"
+};
+
+
+
 
   console.log(dataURL)
 
@@ -100,9 +110,7 @@ showXLabels: 10          }
 
       }
     }
-  });
+  }
+);
+
 }
-
-
-var runButton = document.getElementById("renderBtn");
-runButton.addEventListener("click", getchartdata);

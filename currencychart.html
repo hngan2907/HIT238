@@ -18,7 +18,7 @@
     </div>
     <div class="date"></div>
     <button class="chartbtn"><a href="index.html"><i class="fa fa-angle-double-left"></i>Chart</a></button>
-    <div class="content clearFix">
+    <div class="content">
       <form action="#" class="aside">
         <div class="settings">
           <dl>
@@ -115,9 +115,8 @@
                 <option value="YER">Yemeni Rial</option>
                 <option value="ZMK">Zambian Kwacha</option>
               </select>
-              <span class="currencies-separator">/</span>
               <select id="curr2" class="currency-2">
-                <option value="">Select Base Currency</option>
+                <option value="">Select Second Currency</option>
                 <option value="DZD">Algerian Dinar</option>
                 <option value="ARS">Argentine Peso</option>
                 <option value="AUD">Australian Dollar</option>
@@ -224,15 +223,19 @@
 
         </div>
       </form>
-    </div>
-  <div id="demo">c</div>
 
-  <div id="urlerr">c</div>
-  <button type='reset' id="renderBtn">
+  <button type='reset' onclick='getchartdata()' id="renderBtn">
         Render
     </button>
+    <div id="curr1err"></div>
+    <div id="curr2err"></div>
+    <div id="currerr"></div>
 
+    <div id="urlerr"></div>
+    
     <canvas id="myChart"></canvas>
+  </div>
+
   </div>
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
