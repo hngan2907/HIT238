@@ -217,7 +217,9 @@ padding: 0rem 0.5rem;
       transform: translate(-50%, -50%);
   }
 
-
+#myChart {
+  background-color: white;
+}
 
 @media (max-width: 600px) {
   html { font-size: 14px; }
