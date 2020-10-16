@@ -1,12 +1,12 @@
 // Global Variables
 
-const addCurrencyBtn = document.querySelector(".searchbtn");
-const addCurrencyList = document.querySelector(".listadd");
+const addCurrButton = document.querySelector(".searchbtn");
+const addCurrList = document.querySelector(".listadd");
 const currenciesList = document.querySelector(".currencies");
 
 const dataURL = "https://api.exchangerate.host/latest";
 
-const initiallyDisplayedCurrencies = ["USD", "EUR", "AUD", "AED", "RUB"];
+const initlist = ["USD", "EUR", "AUD", "AED", "RUB"];
 let baseCurrency;
 let baseCurrencyAmount;
 
@@ -28,6 +28,12 @@ let currencies = [
     abbreviation: "ALL",
     symbol: "L",
     flagURL: "https://img.geonames.org/flags/x/af.gif"
+  },
+  {
+    name: "Armenian Dram",
+    abbreviation: "AMD",
+    symbol: "֏",
+    flagURL: "https://img.geonames.org/flags/x/am.gif"
   },
 
   {
@@ -232,15 +238,15 @@ let currencies = [
 
 // Event Listeners
 
-addCurrencyBtn.addEventListener("click", addCurrencyBtnClick);
+addCurrButton.addEventListener("click", addCurrButtonClick);
 
-function addCurrencyBtnClick(event) {
-  addCurrencyBtn.classList.toggle("open");
+function addCurrButtonClick(event) {
+  addCurrButton.classList.toggle("open");
 }
 
-addCurrencyList.addEventListener("click", addCurrencyListClick);
+addCurrList.addEventListener("click", addCurrListClick);
 
-function addCurrencyListClick(event) {
+function addCurrListClick(event) {
   const clickedListItem = event.target.closest("li");
   if(!clickedListItem.classList.contains("disabled")) {
     const newCurrency = currencies.find(c => c.abbreviation===clickedListItem.getAttribute("data-currency"));
@@ -254,7 +260,7 @@ function currenciesListClick(event) {
   if(event.target.classList.contains("close")) {
     const parentNode = event.target.parentNode;
     parentNode.remove();
-    addCurrencyList.querySelector(`[data-currency=${parentNode.id}]`).classList.remove("disabled");
+    addCurrList.querySelector(`[data-currency=${parentNode.id}]`).classList.remove("disabled");
     if(parentNode.classList.contains("base-currency")) {
       const newBaseCurrencyLI = currenciesList.querySelector(".currency");
       if(newBaseCurrencyLI) {
@@ -316,7 +322,7 @@ function currenciesListKeyDown(event) {
 
 function populateAddCyrrencyList() {
   for(let i=0; i<currencies.length; i++) {
-    addCurrencyList.insertAdjacentHTML(
+    addCurrList.insertAdjacentHTML(
       "beforeend",
       `<li data-currency=${currencies[i].abbreviation}>
         <img src=${currencies[i].flagURL} class="flag"><span>${currencies[i].abbreviation} - ${currencies[i].name}</span>
@@ -326,8 +332,8 @@ function populateAddCyrrencyList() {
 }
 
 function populateCurrenciesList() {
-  for(let i=0; i<initiallyDisplayedCurrencies.length; i++) {
-    const currency = currencies.find(c => c.abbreviation===initiallyDisplayedCurrencies[i]);
+  for(let i=0; i<initlist.length; i++) {
+    const currency = currencies.find(c => c.abbreviation===initlist[i]);
     if(currency) newCurrenciesListItem(currency);
   }
 }
@@ -337,7 +343,7 @@ function newCurrenciesListItem(currency) {
     baseCurrency = currency.abbreviation;
     baseCurrencyAmount = 0;
   }
-  addCurrencyList.querySelector(`[data-currency=${currency.abbreviation}]`).classList.add("disabled");
+  addCurrList.querySelector(`[data-currency=${currency.abbreviation}]`).classList.add("disabled");
   const baseCurrencyRate = currencies.find(c => c.abbreviation===baseCurrency).rate;
   const exchangeRate = currency.abbreviation===baseCurrency ? 1 : (currency.rate/baseCurrencyRate).toFixed(4);
   const inputValue = baseCurrencyAmount ? (baseCurrencyAmount*exchangeRate).toFixed(4) : "";
