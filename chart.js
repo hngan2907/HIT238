@@ -59,6 +59,8 @@ if (curr2 == "") {
   console.log(dataURL)
 
 
+
+
   async function getAsync() {
     const response = await fetch(dataURL);
     const data = await response.text();
@@ -76,7 +78,39 @@ if (curr2 == "") {
     ratedata.forEach(mm => try1.push(mm.replace(",", ".")));
     const getnumber = try1.map(Number);
     getnumber.forEach(kk => ratenumber.push(kk));
-console.log(ratedata,datedata)
+
+
+        var ctx = document.getElementById('myChart').getContext('2d');
+        var myChart = new Chart(ctx, {
+          type: 'line',
+          data: {
+            labels: datedata,
+            datasets: [{
+              label: curr2,
+              data: ratenumber,
+              borderColor: '#424242',
+              backgroundColor: '##424242',
+              fill: false,
+              lineTension: 0
+            }]
+          },
+          options: {
+            scales: {
+              xAxes: [{
+                ticks: {
+      showXLabels: 10
+    }
+              }],
+
+            }
+
+          }
+        }
+      );
+
+
+
+
   }
 
 
@@ -87,31 +121,5 @@ console.log(ratedata,datedata)
     );
 
 
-  var ctx = document.getElementById('myChart').getContext('2d');
-  var myChart = new Chart(ctx, {
-    type: 'line',
-    data: {
-      labels: datedata,
-      datasets: [{
-        label: curr2,
-        data: ratenumber,
-        borderColor: '#424242',
-        backgroundColor: '##424242',
-        fill: false,
-        lineTension: 0
-      }]
-    },
-    options: {
-      scales: {
-        xAxes: [{
-          ticks: {
-showXLabels: 10          }
-        }],
-
-      }
-
-    }
-  }
-);
 
 }
