@@ -77,6 +77,56 @@ let currencies = [
     symbol: "KM",
     flagURL: "https://img.geonames.org/flags/x/ba.gif"
   },
+  {
+    name: "Barbadian Dollar",
+    abbreviation: "BBD",
+    symbol: "\u0024",
+    flagURL: "https://img.geonames.org/flags/x/bb.gif"
+  },
+  {
+    name: "Bangladeshi Taka",
+    abbreviation: "BDT",
+    symbol: "৳",
+    flagURL: "https://img.geonames.org/flags/x/bd.gif"
+  },
+  {
+    name: "Bulgarian Lev",
+    abbreviation: "BGN",
+    symbol: "\u043B\u0432",
+    flagURL: "http://www.geonames.org/flags/l/bg.gif"
+  },
+  {
+    name: "Bahraini Dinar",
+    abbreviation: "BHD",
+    symbol: "BD",
+    flagURL: "https://img.geonames.org/flags/x/bh.gif"
+  },
+  {
+    name: "Burundian Franc",
+    abbreviation: "BIF",
+    symbol: "FBu",
+    flagURL: "https://img.geonames.org/flags/x/bi.gif"
+  },
+  {
+    name: "Bermudian Dollar",
+    abbreviation: "BMD",
+    symbol: "\u0024",
+    flagURL: "https://img.geonames.org/flags/x/bm.gif"
+  },
+  {
+    name: "Bolivian Boliviano",
+    abbreviation: "BND",
+    symbol: "Bs",
+    flagURL: "https://img.geonames.org/flags/x/bo.gif"
+  },
+  {
+    name: "Brazilian Real",
+    abbreviation: "BRL",
+    symbol: "\u0052\u0024",
+    flagURL: "http://www.geonames.org/flags/l/br.gif"
+  },
+
+
 
 
 
@@ -185,12 +235,7 @@ let currencies = [
     symbol: "\u20B9",
     flagURL: "http://www.geonames.org/flags/l/in.gif"
   },
-  {
-    name: "Brazilian Real",
-    abbreviation: "BRL",
-    symbol: "\u0052\u0024",
-    flagURL: "http://www.geonames.org/flags/l/br.gif"
-  },
+
   {
     name: "South African Rand",
     abbreviation: "ZAR",
@@ -239,12 +284,7 @@ let currencies = [
     symbol: "\u006B\u006E",
     flagURL: "http://www.geonames.org/flags/l/hr.gif"
   },
-  {
-    name: "Bulgarian Lev",
-    abbreviation: "BGN",
-    symbol: "\u043B\u0432",
-    flagURL: "http://www.geonames.org/flags/l/bg.gif"
-  },
+
   {
     name: "Romanian Leu",
     abbreviation: "RON",
