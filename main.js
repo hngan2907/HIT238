@@ -59,6 +59,27 @@ let currencies = [
     symbol: "\u0024",
     flagURL: "http://www.geonames.org/flags/l/au.gif"
   },
+  {
+    name: "Aruban Florin",
+    abbreviation: "AWG",
+    symbol: "Afl",
+    flagURL: "https://img.geonames.org/flags/x/aw.gif"
+  },
+  {
+    name: "Azerbaijani Manat",
+    abbreviation: "AZN",
+    symbol: "₼",
+    flagURL: "https://img.geonames.org/flags/x/az.gif"
+  },
+  {
+    name: "Bosnia and Herzegovina convertible mark",
+    abbreviation: "BAM",
+    symbol: "KM",
+    flagURL: "https://img.geonames.org/flags/x/ba.gif"
+  },
+
+
+
 
 
   {
