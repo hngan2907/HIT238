@@ -168,6 +168,28 @@ ul.listadd li span {
 padding: 0rem 0.5rem;
 }
 
+
+.backbtn{
+  text-align: right;
+  background-color: #2E2E2E;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-top: 3px solid #2E2E2E;
+  outline: none;
+  width: 100%;
+  transition: background-color 0.25s;
+  position: relative;
+}
+.backbtn a {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+.backbtn i {
+padding: 0rem 0.5rem;
+}
+
 .searchbtn {
   background-color: #486489;
   color: #fff;
@@ -253,7 +275,7 @@ margin: 0.5rem;
   margin: 1rem 0rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   html { font-size: 14px; }
   .container { width: 100%; margin: 0 auto; }
   ul.currencies { height: calc(100vh - 83px - 34px - 51px); }
@@ -264,5 +286,7 @@ margin: 0.5rem;
   .info .currency-name { margin-left: 3.5rem; }
   .info .base-currency-rate { margin-left: 3.5rem; }
   ul.listadd { bottom: 48px; height: calc(100vh - 80px - 51px); }
+  .chartbtn {bottom: 2rem  }
+.searchbtn { position: fixed; bottom: 0; left: 0; right: 0;}
   .searchbtn i { left: 25%; top:0.65rem; }
 }

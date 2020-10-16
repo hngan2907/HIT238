@@ -36,23 +36,14 @@ function getchartdata() {
   const getper = d.options[d.selectedIndex].value;
 
   var dataURL;
+
   if (getper == 'aweek') {
     dataURL = 'https://api.exchangerate.host/timeseries?start_date=' + encodeURI(aweekformat) + '&end_date=' + encodeURI(today) + '&base=' + encodeURI(curr1) + '&format=csv'
   } else if (getper == 'threemonths') {
     dataURL = 'https://api.exchangerate.host/timeseries?start_date=' + encodeURI(threemonthsformat) + '&end_date=' + encodeURI(today) + '&base=' + encodeURI(curr1) + '&format=csv'
   } else if (getper == 'ayear') {
     dataURL = 'https://api.exchangerate.host/timeseries?start_date=' + encodeURI(ayearformat) + '&end_date=' + encodeURI(today) + '&base=' + encodeURI(curr1) + '&format=csv'
-  } else {
-  document.getElementById('urlerr').innerHTML = "Please choose the period of the chart";
-  }
-
-if (curr1 == "") {
-  document.getElementById('curr1err').innerHTML = "Please choose the base currency"
-};
-if (curr2 == "") {
-  document.getElementById('curr2err').innerHTML = "Please choose the currency you want to compare"
-};
-
+  } 
 
 
 
@@ -80,33 +71,32 @@ if (curr2 == "") {
     getnumber.forEach(kk => ratenumber.push(kk));
 
 
-        var ctx = document.getElementById('myChart').getContext('2d');
-        var myChart = new Chart(ctx, {
-          type: 'line',
-          data: {
-            labels: datedata,
-            datasets: [{
-              label: curr2,
-              data: ratenumber,
-              borderColor: '#424242',
-              backgroundColor: '##424242',
-              fill: false,
-              lineTension: 0
-            }]
-          },
-          options: {
-            scales: {
-              xAxes: [{
-                ticks: {
-      showXLabels: 10
-    }
-              }],
-
+    var ctx = document.getElementById('myChart').getContext('2d');
+    var myChart = new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: datedata,
+        datasets: [{
+          label: curr2,
+          data: ratenumber,
+          borderColor: '#424242',
+          backgroundColor: '##424242',
+          fill: false,
+          lineTension: 0
+        }]
+      },
+      options: {
+        scales: {
+          xAxes: [{
+            ticks: {
+              showXLabels: 10
             }
+          }],
 
-          }
         }
-      );
+
+      }
+    });
 
 
 
