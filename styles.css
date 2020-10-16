@@ -240,6 +240,7 @@ padding: 0rem 0.5rem;
   background-color: white;
   color: #2E2E2E;
   padding: 0.25rem;
+  height: 620px;
 
 }
 .settings {
@@ -285,7 +286,7 @@ margin: 0.5rem;
   .info .input input { font-size: 1.25rem; width: 76%;}
   .info .currency-name { margin-left: 3.5rem; }
   .info .base-currency-rate { margin-left: 3.5rem; }
-  ul.listadd { bottom: 48px; height: calc(100vh - 80px - 51px); }
+  ul.listadd { bottom: 30px; height: calc(100vh - 80px - 51px); }
   .chartbtn {bottom: 2rem  }
 .searchbtn { position: fixed; bottom: 0; left: 0; right: 0;}
   .searchbtn i { left: 25%; top:0.65rem; }
