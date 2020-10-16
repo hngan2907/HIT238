@@ -18,13 +18,13 @@ const ayear = createDate(0, 0, -1);
 const ayearformat = ayear.getFullYear() + "-" + ("0" + (ayear.getMonth() + 1)).slice(-2) + "-" + ("0" + ayear.getDate()).slice(-2);
 
 
-const datedata = [];
-const ratedata = [];
-const ratenumber = [];
 
 
 function getchartdata() {
 
+  const datedata = [];
+  const ratedata = [];
+  const ratenumber = [];
 
 
   const e = document.getElementById("curr1");
@@ -109,6 +109,7 @@ showXLabels: 10          }
         }],
 
       }
+
     }
   }
 );
