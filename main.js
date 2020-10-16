@@ -35,6 +35,31 @@ let currencies = [
     symbol: "֏",
     flagURL: "https://img.geonames.org/flags/x/am.gif"
   },
+  {
+    name: "Netherlands Antillean Guilder",
+    abbreviation: "ANG",
+    symbol: "ƒ",
+    flagURL: "https://img.geonames.org/flags/x/cw.gif"
+  },
+  {
+    name: "Angolan kwanza",
+    abbreviation: "AOA",
+    symbol: "Kz",
+    flagURL: "https://img.geonames.org/flags/x/ao.gif"
+  },
+  {
+    name: "Argentine Peso",
+    abbreviation: "ARS",
+    symbol: "\u0024",
+    flagURL: "https://img.geonames.org/flags/x/ar.gif"
+  },
+  {
+    name: "Australian Dollar",
+    abbreviation: "AUD",
+    symbol: "\u0024",
+    flagURL: "http://www.geonames.org/flags/l/au.gif"
+  },
+
 
   {
     name: "US Dollar",
@@ -60,12 +85,7 @@ let currencies = [
     symbol: "\u00A3",
     flagURL: "http://www.geonames.org/flags/l/uk.gif"
   },
-  {
-    name: "Australian Dollar",
-    abbreviation: "AUD",
-    symbol: "\u0024",
-    flagURL: "http://www.geonames.org/flags/l/au.gif"
-  },
+
   {
     name: "Canadian Dollar",
     abbreviation: "CAD",
