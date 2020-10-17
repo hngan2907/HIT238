@@ -125,7 +125,66 @@ let currencies = [
     symbol: "\u0052\u0024",
     flagURL: "http://www.geonames.org/flags/l/br.gif"
   },
-
+  {
+    name: "Bahamian Dollar",
+    abbreviation: "BSD",
+    symbol: "\u0024",
+    flagURL: "https://img.geonames.org/flags/x/bs.gif"
+  },
+  {
+    name: "Bitcoin",
+    abbreviation: "BTC",
+    symbol: "₿",
+    flagURL: ""
+  },
+  {
+    name: "Bhutanese Ngultrum",
+    abbreviation: "BTN",
+    symbol: "Nu.",
+    flagURL: "https://img.geonames.org/flags/x/bt.gif"
+  },
+  {
+    name: "Botswanan Pula",
+    abbreviation: "BWP",
+    symbol: "P",
+    flagURL: "https://img.geonames.org/flags/x/bw.gif"
+  },
+  {
+    name: "Belarusian Ruble",
+    abbreviation: "BYN",
+    symbol: "Br",
+    flagURL: "https://img.geonames.org/flags/x/by.gif"
+  },
+  {
+    name: "Belize Dollar",
+    abbreviation: "BZD",
+    symbol: "\u0024",
+    flagURL: "https://img.geonames.org/flags/x/bz.gif"
+  },
+  {
+    name: "Canadian Dollar",
+    abbreviation: "CAD",
+    symbol: "\u0024",
+    flagURL: "http://www.geonames.org/flags/l/ca.gif"
+  },
+  {
+    name: "Congolese Franc",
+    abbreviation: "CDF",
+    symbol: "FC",
+    flagURL: "https://img.geonames.org/flags/x/cg.gif"
+  },
+  {
+    name: "Swiss Franc",
+    abbreviation: "CHF",
+    symbol: "\u0043\u0048\u0046",
+    flagURL: "http://www.geonames.org/flags/l/ch.gif"
+  },
+  {
+    name: "Unidad de Fomento",
+    abbreviation: "CLF",
+    symbol: "UF",
+    flagURL: "https://img.geonames.org/flags/x/cl.gif"
+  },
 
 
 
@@ -157,18 +216,8 @@ let currencies = [
     flagURL: "http://www.geonames.org/flags/l/uk.gif"
   },
 
-  {
-    name: "Canadian Dollar",
-    abbreviation: "CAD",
-    symbol: "\u0024",
-    flagURL: "http://www.geonames.org/flags/l/ca.gif"
-  },
-  {
-    name: "Swiss Franc",
-    abbreviation: "CHF",
-    symbol: "\u0043\u0048\u0046",
-    flagURL: "http://www.geonames.org/flags/l/ch.gif"
-  },
+
+
   {
     name: "Chinese Yuan Renminbi",
     abbreviation: "CNY",
