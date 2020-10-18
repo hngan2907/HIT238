@@ -372,6 +372,175 @@ let currencies = [
       symbol: "\u006B\u006E",
       flagURL: "http://www.geonames.org/flags/l/hr.gif"
     },
+    {
+      name: "Hungarian Forint",
+      abbreviation: "HUF",
+      symbol: "\u0046\u0074",
+      flagURL: "http://www.geonames.org/flags/l/hu.gif"
+    },
+    {
+      name: "Indonesian Rupiah",
+      abbreviation: "IDR",
+      symbol: "\u0052\u0070",
+      flagURL: "http://www.geonames.org/flags/l/id.gif"
+    },
+    {
+      name: "Israeli Shekel",
+      abbreviation: "ILS",
+      symbol: "\u20AA",
+      flagURL: "http://www.geonames.org/flags/l/il.gif"
+    }
+    {
+      name: "Manx Pound",
+      abbreviation: "IMP",
+      symbol: "\u00A3",
+      flagURL: "https://img.geonames.org/flags/x/im.gif"
+    },
+    {
+      name: "Indian Rupee",
+      abbreviation: "INR",
+      symbol: "\u20B9",
+      flagURL: "http://www.geonames.org/flags/l/in.gif"
+    },
+    {
+      name: "Iraqi Dinar",
+      abbreviation: "IQD",
+      symbol: "د.ع",
+      flagURL: "https://img.geonames.org/flags/x/iq.gif"
+    },
+    {
+      name: "Iranian Rial",
+      abbreviation: "IRR",
+      symbol: "﷼",
+      flagURL: "https://img.geonames.org/flags/x/ir.gif"
+    },
+    {
+      name: "Iranian Rial",
+      abbreviation: "IRR",
+      symbol: "﷼",
+      flagURL: "https://img.geonames.org/flags/x/ir.gif"
+    },
+    {
+      name: "Icelandic Krona",
+      abbreviation: "ISK",
+      symbol: "\u006B\u0072",
+      flagURL: "http://www.geonames.org/flags/l/is.gif"
+    },
+    {
+      name: "Jersey Pound",
+      abbreviation: "JEP",
+      symbol: "\u00A3",
+      flagURL: "http://www.geonames.org/flags/l/je.gif"
+    },
+    {
+      name: "Jamaican Dollar",
+      abbreviation: "JMD",
+      symbol: "\u0024",
+      flagURL: "https://img.geonames.org/flags/x/jm.gif"
+    },
+    {
+      name: "Jordanian Dinar",
+      abbreviation: "JOD",
+      symbol: "د.أ",
+      flagURL: "https://img.geonames.org/flags/x/jo.gif"
+    },
+    {
+      name: "Japanese Yen",
+      abbreviation: "JPY",
+      symbol: "\u00A5",
+      flagURL: "http://www.geonames.org/flags/l/jp.gif"
+    },
+    {
+      name: "Kenyan Shilling",
+      abbreviation: "KES",
+      symbol: "KSh",
+      flagURL: "https://img.geonames.org/flags/x/ke.gif"
+    },
+    {
+      name: "Kyrgyzstani Som",
+      abbreviation: "KGS",
+      symbol: "C",
+      flagURL: "https://img.geonames.org/flags/x/kg.gif"
+    },
+    {
+      name: "Cambodian Riel",
+      abbreviation: "KHR",
+      symbol: "\u17DB",
+      flagURL: "https://img.geonames.org/flags/x/kh.gif"
+    },
+    {
+      name: "Comorian Franc",
+      abbreviation: "KMF",
+      symbol: "CF",
+      flagURL: "https://img.geonames.org/flags/x/km.gif"
+    },
+    {
+      name: "North Korean Won",
+      abbreviation: "KPW",
+      symbol: "\u20A9",
+      flagURL: "https://img.geonames.org/flags/x/kp.gif"
+    },
+    {
+      name: "South Korean Won",
+      abbreviation: "KRW",
+      symbol: "\u20A9",
+      flagURL: "http://www.geonames.org/flags/l/kr.gif"
+    },
+    {
+      name: "Kuwaiti Dinar",
+      abbreviation: "KWD",
+      symbol: "KD",
+      flagURL: "https://img.geonames.org/flags/x/kw.gif"
+    },
+    {
+      name: "Cayman Islands Dollar",
+      abbreviation: "KYD",
+      symbol: "\u0024",
+      flagURL: "https://img.geonames.org/flags/x/ky.gif"
+    },
+    {
+      name: "Kazakhstani Tenge",
+      abbreviation: "KZT",
+      symbol: "₸",
+      flagURL: "https://img.geonames.org/flags/x/kz.gif"
+    },
+    {
+      name: "Lao Kip",
+      abbreviation: "LAK",
+      symbol: "₭",
+      flagURL: "https://img.geonames.org/flags/x/la.gif"
+    },
+    {
+      name: "Lebanese Pound",
+      abbreviation: "LAK",
+      symbol: "\u00A3",
+      flagURL: "https://img.geonames.org/flags/x/lb.gif"
+    },
+    {
+      name: "Sri Lankan Rupee",
+      abbreviation: "LKR",
+      symbol: "රු",
+      flagURL: "https://img.geonames.org/flags/x/lk.gif"
+    },
+    {
+      name: "Liberian Dollar",
+      abbreviation: "LRD",
+      symbol: "\u0024",
+      flagURL: "https://img.geonames.org/flags/x/lr.gif"
+    },
+    {
+      name: "Lesotho Loti",
+      abbreviation: "LSL",
+      symbol: "L",
+      flagURL: "https://img.geonames.org/flags/x/ls.gif"
+    },
+    {
+      name: "Libyan Dinar",
+      abbreviation: "LYD",
+      symbol: "LD",
+      flagURL: "https://img.geonames.org/flags/x/ly.gif"
+    },
+
 
 
 
@@ -390,12 +559,7 @@ let currencies = [
     symbol: "\u20AC",
     flagURL: "https://upload.wikimedia.org/wikipedia/commons/b/b7/Flag_of_Europe.svg"
   },
-  {
-    name: "Japanese Yen",
-    abbreviation: "JPY",
-    symbol: "\u00A5",
-    flagURL: "http://www.geonames.org/flags/l/jp.gif"
-  },
+
   {
     name: "British Pound",
     abbreviation: "GBP",
@@ -447,12 +611,7 @@ let currencies = [
     symbol: "\u006B\u0072",
     flagURL: "http://www.geonames.org/flags/l/no.gif"
   },
-  {
-    name: "South Korean Won",
-    abbreviation: "KRW",
-    symbol: "\u20A9",
-    flagURL: "http://www.geonames.org/flags/l/kr.gif"
-  },
+
   {
     name: "Turkish Lira",
     abbreviation: "TRY",
@@ -465,12 +624,7 @@ let currencies = [
     symbol: "\u20BD",
     flagURL: "http://www.geonames.org/flags/l/ru.gif"
   },
-  {
-    name: "Indian Rupee",
-    abbreviation: "INR",
-    symbol: "\u20B9",
-    flagURL: "http://www.geonames.org/flags/l/in.gif"
-  },
+
 
   {
     name: "South African Rand",
@@ -490,30 +644,15 @@ let currencies = [
     symbol: "\u004B\u010D",
     flagURL: "http://www.geonames.org/flags/l/cz.gif"
   },
-  {
-    name: "Indonesian Rupiah",
-    abbreviation: "IDR",
-    symbol: "\u0052\u0070",
-    flagURL: "http://www.geonames.org/flags/l/id.gif"
-  },
+
   {
     name: "Malaysian Ringgit",
     abbreviation: "MYR",
     symbol: "\u0052\u004D",
     flagURL: "http://www.geonames.org/flags/l/my.gif"
   },
-  {
-    name: "Hungarian Forint",
-    abbreviation: "HUF",
-    symbol: "\u0046\u0074",
-    flagURL: "http://www.geonames.org/flags/l/hu.gif"
-  },
-  {
-    name: "Icelandic Krona",
-    abbreviation: "ISK",
-    symbol: "\u006B\u0072",
-    flagURL: "http://www.geonames.org/flags/l/is.gif"
-  },
+
+
   {
     name: "Croatian Kuna",
     abbreviation: "HRK",
@@ -545,12 +684,7 @@ let currencies = [
     symbol: "\u007A\u0142",
     flagURL: "http://www.geonames.org/flags/l/pl.gif"
   },
-  {
-    name: "Israeli Shekel",
-    abbreviation: "ILS",
-    symbol: "\u20AA",
-    flagURL: "http://www.geonames.org/flags/l/il.gif"
-  }
+
 ];
 
 // Event Listeners
