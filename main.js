@@ -540,6 +540,55 @@ let currencies = [
       symbol: "LD",
       flagURL: "https://img.geonames.org/flags/x/ly.gif"
     },
+    {
+      name: "Moroccan Dirham",
+      abbreviation: "MAD",
+      symbol: "DH",
+      flagURL: "https://img.geonames.org/flags/x/ma.gif"
+    },
+    {
+      name: "Moldovan Leu",
+      abbreviation: "MDL",
+      symbol: "L",
+      flagURL: "https://img.geonames.org/flags/x/md.gif"
+    },
+    {
+      name: "Malagasy Ariary",
+      abbreviation: "MGA",
+      symbol: "Ar",
+      flagURL: "https://img.geonames.org/flags/x/mg.gif"
+    },
+    {
+      name: "Macedonian Denar",
+      abbreviation: "MKD",
+      symbol: "den",
+      flagURL: "https://img.geonames.org/flags/x/mk.gif"
+    },
+    {
+      name: "Burmese Kyat",
+      abbreviation: "MMK",
+      symbol: "K",
+      flagURL: "https://img.geonames.org/flags/x/mm.gif"
+    },
+    {
+      name: "Mongolian Tögrög",
+      abbreviation: "MNT",
+      symbol: "₮",
+      flagURL: "https://img.geonames.org/flags/x/mn.gif"
+    },
+    {
+      name: "Macanese Pataca",
+      abbreviation: "MOP",
+      symbol: "\u0024",
+      flagURL: "https://img.geonames.org/flags/x/mo.gif"
+    },
+    {
+      name: "Mauritanian Ouguiya",
+      abbreviation: "MRO",
+      symbol: "UM",
+      flagURL: "https://img.geonames.org/flags/x/mr.gif"
+    },
+
 
 
 
