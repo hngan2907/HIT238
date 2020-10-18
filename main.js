@@ -186,6 +186,193 @@ let currencies = [
     flagURL: "https://img.geonames.org/flags/x/cl.gif"
   },
 
+    {
+      name: "Chilean Peso",
+      abbreviation: "CLP",
+      symbol: "\u0024",
+      flagURL: "https://img.geonames.org/flags/x/cl.gif"
+    },
+    {
+      name: "Chinese Yuan (Offshore)",
+      abbreviation: "CNH",
+      symbol: "\u00A5",
+      flagURL: "http://www.geonames.org/flags/l/cn.gif"
+    },
+  {
+      name: "Chinese Yuan Renminbi",
+      abbreviation: "CNY",
+      symbol: "\u00A5",
+      flagURL: "http://www.geonames.org/flags/l/cn.gif"
+    },
+  {
+      name: "Colombian Peso",
+      abbreviation: "COP",
+      symbol: "\u0024",
+      flagURL: "https://img.geonames.org/flags/x/co.gif"
+    },
+  {
+      name: "Costa Rican Colón",
+      abbreviation: "CRC",
+      symbol: "\u20A1",
+      flagURL: "https://img.geonames.org/flags/x/cr.gif"
+    },
+  {
+      name: "Cuban Convertible Peso",
+      abbreviation: "CUC",
+      symbol: "\u0024",
+      flagURL: "https://img.geonames.org/flags/x/cu.gif"
+    },
+  {
+      name: "Cuban Peso",
+      abbreviation: "CUP",
+      symbol: "\u0024",
+      flagURL: "https://img.geonames.org/flags/x/cu.gif"
+    },
+  {
+      name: "Cape Verdean escudo",
+      abbreviation: "CVE",
+      symbol: "\u0024",
+      flagURL: "https://img.geonames.org/flags/x/cv.gif"
+    },
+  {
+      name: "Czech Republic Koruna",
+      abbreviation: "CZK",
+      symbol: "\u004B\u010D",
+      flagURL: "http://www.geonames.org/flags/l/cz.gif"
+    },
+  {
+      name: "Djiboutian Franc",
+      abbreviation: "DJF",
+      symbol: "Fdj",
+      flagURL: "https://img.geonames.org/flags/x/dj.gif"
+    },
+  {
+      name: "Danish Krone",
+      abbreviation: "DKK",
+      symbol: "\u006B\u0072",
+      flagURL: "http://www.geonames.org/flags/l/dk.gif"
+    },
+  {
+      name: "Dominican Peso",
+      abbreviation: "DOP",
+      symbol: "\u0024",
+      flagURL: "https://img.geonames.org/flags/x/dm.gif"
+    },
+  {
+      name: "Algerian Dinar",
+      abbreviation: "DZD",
+      symbol: "DA",
+      flagURL: "https://img.geonames.org/flags/x/dz.gif"
+    },
+  {
+      name: "Egyptian Pound",
+      abbreviation: "EGP",
+      symbol: "\u00A3",
+      flagURL: "https://img.geonames.org/flags/x/eg.gif"
+    },
+  {
+      name: "Eritrean Nakfa",
+      abbreviation: "ERN",
+      symbol: "Nkf",
+      flagURL: "https://img.geonames.org/flags/x/er.gif"
+    },
+  {
+      name: "Ethiopian Birr",
+      abbreviation: "ETB",
+      symbol: "Br",
+      flagURL: "https://img.geonames.org/flags/x/et.gif"
+    },
+   {
+      name: "Euro",
+      abbreviation: "EUR",
+      symbol: "\u20AC",
+      flagURL: "https://upload.wikimedia.org/wikipedia/commons/b/b7/Flag_of_Europe.svg"
+    },
+  {
+      name: "Fijian Dollar",
+      abbreviation: "FJD",
+      symbol: "\u0024",
+      flagURL: "https://img.geonames.org/flags/x/fj.gif"
+    },
+  {
+      name: "Falkland Islands Pound",
+      abbreviation: "FKP",
+      symbol: "\u00A3",
+      flagURL: "https://img.geonames.org/flags/x/fk.gif"
+    },
+  {
+      name: "British Pound",
+      abbreviation: "GBP",
+      symbol: "\u00A3",
+      flagURL: "http://www.geonames.org/flags/l/uk.gif"
+    },
+  {
+      name: "Georgian Lari",
+      abbreviation: "GEL",
+      symbol: "\u20BE",
+      flagURL: "https://img.geonames.org/flags/x/ge.gif"
+    },
+  {
+      name: "Guernsey Pound",
+      abbreviation: "GGP",
+      symbol: "\u00A3",
+      flagURL: "https://img.geonames.org/flags/x/gg.gif"
+    },
+  {
+      name: "Ghanaian Cedi",
+      abbreviation: "GHS",
+      symbol: "\u20B5",
+      flagURL: "https://img.geonames.org/flags/x/gh.gif"
+    },
+  {
+      name: "Gambian Dalasi",
+      abbreviation: "GMD",
+      symbol: "D",
+      flagURL: "https://img.geonames.org/flags/x/gm.gif"
+    },
+  {
+      name: "Guinean Franc",
+      abbreviation: "GNF",
+      symbol: "FG",
+      flagURL: "https://img.geonames.org/flags/x/gn.gif"
+    },
+  {
+      name: "Guatemalan Quetzal",
+      abbreviation: "GTQ",
+      symbol: "Q",
+      flagURL: "https://img.geonames.org/flags/x/gt.gif"
+    },
+  {
+      name: "Guyanese Dollar",
+      abbreviation: "GYD",
+      symbol: "\u0024",
+      flagURL: "https://img.geonames.org/flags/x/gy.gif"
+    },
+   {
+      name: "Hong Kong Dollar",
+      abbreviation: "HKD",
+      symbol: "\u0024",
+      flagURL: "http://www.geonames.org/flags/l/hk.gif"
+    },
+   {
+      name: "Honduran Lempira",
+      abbreviation: "HNL",
+      symbol: "L",
+      flagURL: "http://www.geonames.org/flags/l/us.gif"
+    },
+    {
+      name: "Croatian Kuna",
+      abbreviation: "HRK",
+      symbol: "\u006B\u006E",
+      flagURL: "http://www.geonames.org/flags/l/hr.gif"
+    },
+    {
+      name: "Croatian Kuna",
+      abbreviation: "HTG",
+      symbol: "\u006B\u006E",
+      flagURL: "http://www.geonames.org/flags/l/hr.gif"
+    },
+
 
 
 
