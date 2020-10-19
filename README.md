@@ -1,7 +1,10 @@
 # HIT238
-App name: Easy Exchange /n
-https://hngan2907.github.io/HIT238/ /n
-This is a currency exchange rate converter mobile application integrated with currency chart. /n
+App name: Easy Exchange
+
+https://hngan2907.github.io/HIT238/
+
+This is a currency exchange rate converter mobile application integrated with currency chart.
+
 
 <img src="img/homepage.JPG" height="400">
 
