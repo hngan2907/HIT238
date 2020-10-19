@@ -588,6 +588,95 @@ let currencies = [
       symbol: "UM",
       flagURL: "https://img.geonames.org/flags/x/mr.gif"
     },
+    {
+      name: "Mauritanian Ouguiya",
+      abbreviation: "MRU",
+      symbol: "UM",
+      flagURL: "https://img.geonames.org/flags/x/mr.gif"
+    },
+    {
+      name: "Mauritian Rupee",
+      abbreviation: "MUR",
+      symbol: "₨",
+      flagURL: "https://img.geonames.org/flags/x/mu.gif"
+    },
+    {
+      name: "Maldivian Rufiyaa",
+      abbreviation: "MVR",
+      symbol: "Rf",
+      flagURL: "https://img.geonames.org/flags/x/mv.gif"
+    },
+    {
+      name: "Malawian Kwacha",
+      abbreviation: "MWK",
+      symbol: "K",
+      flagURL: "https://img.geonames.org/flags/x/mw.gif"
+    },
+    {
+      name: "Mexican Peso",
+      abbreviation: "MXN",
+      symbol: "\u0024",
+      flagURL: "http://www.geonames.org/flags/l/mx.gif"
+    },
+    {
+      name: "Malaysian Ringgit",
+      abbreviation: "MYR",
+      symbol: "\u0052\u004D",
+      flagURL: "http://www.geonames.org/flags/l/my.gif"
+    },
+    {
+      name: "Mozambican Metical",
+      abbreviation: "MZN",
+      symbol: "MT",
+      flagURL: "https://img.geonames.org/flags/x/mz.gif"
+    },
+    {
+      name: "Namibian Dollar",
+      abbreviation: "NAD",
+      symbol: "\u0024",
+      flagURL: "https://img.geonames.org/flags/x/na.gif"
+    },
+    {
+      name: "Nigerian Naira",
+      abbreviation: "NGN",
+      symbol: "\u20A6",
+      flagURL: "https://img.geonames.org/flags/x/ng.gif"
+    },
+    {
+      name: "Nicaraguan Córdoba",
+      abbreviation: "NIO",
+      symbol: "C$",
+      flagURL: "https://img.geonames.org/flags/x/ni.gif"
+    },
+    {
+      name: "Norwegian Krone",
+      abbreviation: "NOK",
+      symbol: "\u006B\u0072",
+      flagURL: "http://www.geonames.org/flags/l/no.gif"
+    },
+    {
+      name: "Nepalese Rupee",
+      abbreviation: "NPR",
+      symbol: "\u20A8",
+      flagURL: "https://img.geonames.org/flags/x/np.gif"
+    },
+    {
+      name: "New Zealand Dollar",
+      abbreviation: "NZD",
+      symbol: "\u0024",
+      flagURL: "http://www.geonames.org/flags/l/nz.gif"
+    },
+    {
+      name: "Omani Rial",
+      abbreviation: "OMR",
+      symbol: "R.O",
+      flagURL: "https://img.geonames.org/flags/x/om.gif"
+    },
+
+
+
+
+
 
 
 
@@ -630,18 +719,7 @@ let currencies = [
     symbol: "\u006B\u0072",
     flagURL: "http://www.geonames.org/flags/l/se.gif"
   },
-  {
-    name: "New Zealand Dollar",
-    abbreviation: "NZD",
-    symbol: "\u0024",
-    flagURL: "http://www.geonames.org/flags/l/nz.gif"
-  },
-  {
-    name: "Mexican Peso",
-    abbreviation: "MXN",
-    symbol: "\u0024",
-    flagURL: "http://www.geonames.org/flags/l/mx.gif"
-  },
+
   {
     name: "Singapore Dollar",
     abbreviation: "SGD",
@@ -654,12 +732,7 @@ let currencies = [
     symbol: "\u0024",
     flagURL: "http://www.geonames.org/flags/l/hk.gif"
   },
-  {
-    name: "Norwegian Krone",
-    abbreviation: "NOK",
-    symbol: "\u006B\u0072",
-    flagURL: "http://www.geonames.org/flags/l/no.gif"
-  },
+
 
   {
     name: "Turkish Lira",
@@ -694,12 +767,6 @@ let currencies = [
     flagURL: "http://www.geonames.org/flags/l/cz.gif"
   },
 
-  {
-    name: "Malaysian Ringgit",
-    abbreviation: "MYR",
-    symbol: "\u0052\u004D",
-    flagURL: "http://www.geonames.org/flags/l/my.gif"
-  },
 
 
   {
