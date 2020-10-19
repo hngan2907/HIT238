@@ -672,135 +672,354 @@ let currencies = [
       symbol: "R.O",
       flagURL: "https://img.geonames.org/flags/x/om.gif"
     },
-
-
-
-
-
-
-
-
-
-
-
-
-
+    {
+      name: "Panamanian balboa",
+      abbreviation: "PAB",
+      symbol: "B/.",
+      flagURL: "https://img.geonames.org/flags/x/pa.gif"
+    },
+    {
+      name: "Peruvian Nuevo Sol",
+      abbreviation: "PEN",
+      symbol: "S/",
+      flagURL: "https://img.geonames.org/flags/x/pe.gif"
+    },
+    {
+      name: "Papua New Guinean Kina",
+      abbreviation: "PGK",
+      symbol: "K",
+      flagURL: "https://img.geonames.org/flags/x/pg.gif"
+    },
+    {
+      name: "Philippine Peso",
+      abbreviation: "PHP",
+      symbol: "\u20B1",
+      flagURL: "http://www.geonames.org/flags/l/ph.gif"
+    },
+    {
+      name: "Pakistani Rupee",
+      abbreviation: "PKR",
+      symbol: "\u20A8",
+      flagURL: "https://img.geonames.org/flags/x/pk.gif"
+    },
+    {
+      name: "Polish Zloty",
+      abbreviation: "PLN",
+      symbol: "\u007A\u0142",
+      flagURL: "http://www.geonames.org/flags/l/pl.gif"
+    },
+    {
+      name: "Paraguayan Guarani",
+      abbreviation: "PYG",
+      symbol: "\u20B2",
+      flagURL: "https://img.geonames.org/flags/x/py.gif"
+    },
+    {
+      name: "Qatari Rial",
+      abbreviation: "QAR",
+      symbol: "QR",
+      flagURL: "https://img.geonames.org/flags/x/qa.gif"
+    },
+    {
+      name: "Romanian Leu",
+      abbreviation: "RON",
+      symbol: "\u006C\u0065\u0069",
+      flagURL: "http://www.geonames.org/flags/l/ro.gif"
+    },
+    {
+      name: "Serbian Dinar",
+      abbreviation: "RSD",
+      symbol: "din",
+      flagURL: "https://img.geonames.org/flags/x/rs.gif"
+    },
+    {
+      name: "Russian Ruble",
+      abbreviation: "RUB",
+      symbol: "\u20BD",
+      flagURL: "http://www.geonames.org/flags/l/ru.gif"
+    },
+    {
+      name: "Rwandan Franc",
+      abbreviation: "RWF",
+      symbol: "FRw",
+      flagURL: "https://img.geonames.org/flags/x/rw.gif"
+    },
+    {
+      name: "Saudi Riyal",
+      abbreviation: "SAR",
+      symbol: "SAR",
+      flagURL: "https://img.geonames.org/flags/x/sa.gif"
+    },
+    {
+      name: "Solomon Islands Dollar",
+      abbreviation: "SBD",
+      symbol: "\u0024",
+      flagURL: "https://img.geonames.org/flags/x/sb.gif"
+    },
+    {
+      name: "Seychellois Rupee",
+      abbreviation: "SCR",
+      symbol: "SR",
+      flagURL: "https://img.geonames.org/flags/x/sc.gif"
+    },
+    {
+      name: "Sudanese Pound",
+      abbreviation: "SDG",
+      symbol: "\u00A3",
+      flagURL: "https://img.geonames.org/flags/x/sd.gif"
+    },
+    {
+      name: "Swedish Krona",
+      abbreviation: "SEK",
+      symbol: "\u006B\u0072",
+      flagURL: "http://www.geonames.org/flags/l/se.gif"
+    },
+    {
+      name: "Singapore Dollar",
+      abbreviation: "SGD",
+      symbol: "\u0024",
+      flagURL: "http://www.geonames.org/flags/l/sg.gif"
+    },
+    {
+      name: "Saint Helena pound",
+      abbreviation: "SHP",
+      symbol: "\u00A3",
+      flagURL: "https://img.geonames.org/flags/x/sh.gif"
+    },
+    {
+      name: "Sierra Leonean Leone",
+      abbreviation: "SLL",
+      symbol: "Le",
+      flagURL: "https://img.geonames.org/flags/x/sl.gif"
+    },
+    {
+      name: "Somali Shilling",
+      abbreviation: "SOS",
+      symbol: "Sh.So.",
+      flagURL: "https://img.geonames.org/flags/x/so.gif"
+    },
+    {
+      name: "Surinamese Dollar",
+      abbreviation: "SRD",
+      symbol: "\u0024",
+      flagURL: "https://img.geonames.org/flags/x/sr.gif"
+    },
+    {
+      name: "South Sudanese pound",
+      abbreviation: "SSP",
+      symbol: "\u00A3",
+      flagURL: "https://img.geonames.org/flags/x/ss.gif"
+    },
+    {
+      name: "São Tomé and Príncipe dobra",
+      abbreviation: "STD",
+      symbol: "Db",
+      flagURL: "https://img.geonames.org/flags/x/st.gif"
+    },
+    {
+      name: "São Tomé and Príncipe dobra (South)",
+      abbreviation: "STN",
+      symbol: "Db",
+      flagURL: "https://img.geonames.org/flags/x/st.gif"
+    },
+    {
+      name: "Salvadoran Colón",
+      abbreviation: "SVC",
+      symbol: "\u20A1",
+      flagURL: "https://img.geonames.org/flags/x/sv.gif"
+    },
+    {
+      name: "Syrian Pound",
+      abbreviation: "SYP",
+      symbol: "\u00A3",
+      flagURL: "https://img.geonames.org/flags/x/sy.gif"
+    },
+    {
+      name: "Swazi Lilangeni",
+      abbreviation: "SZL",
+      symbol: "L",
+      flagURL: "https://img.geonames.org/flags/x/sz.gif"
+    },
+    {
+      name: "Thai Baht",
+      abbreviation: "THB",
+      symbol: "\u0E3F",
+      flagURL: "http://www.geonames.org/flags/l/th.gif"
+    },
+    {
+      name: "Tajikistani Somoni",
+      abbreviation: "TJS",
+      symbol: "SM",
+      flagURL: "https://img.geonames.org/flags/x/tj.gif"
+    },
+    {
+      name: "Turkmenistan Manat",
+      abbreviation: "TMT",
+      symbol: "T",
+      flagURL: "https://img.geonames.org/flags/x/tm.gif"
+    },
+    {
+      name: "Tunisian Dinar",
+      abbreviation: "TND",
+      symbol: "DT",
+      flagURL: "https://img.geonames.org/flags/x/tn.gif"
+    },
+    {
+      name: "Tongan Paʻanga",
+      abbreviation: "TOP",
+      symbol: "\u0024",
+      flagURL: "https://img.geonames.org/flags/x/to.gif"
+    },
+    {
+      name: "Turkish Lira",
+      abbreviation: "TRY",
+      symbol: "\u20BA",
+      flagURL: "https://img.geonames.org/flags/x/tr.gif"
+    },
+    {
+      name: "Trinidad and Tobago Dollar",
+      abbreviation: "TTD",
+      symbol: "\u0024",
+      flagURL: "https://img.geonames.org/flags/x/tt.gif"
+    },
+    {
+      name: "New Taiwan Dollar",
+      abbreviation: "TWD",
+      symbol: "\u0024",
+      flagURL: "https://img.geonames.org/flags/x/tw.gif"
+    },
+    {
+      name: "Tanzanian Shilling",
+      abbreviation: "TZS",
+      symbol: "TSh",
+      flagURL: "https://img.geonames.org/flags/x/tz.gif"
+    },
+    {
+      name: "Ukrainian Hryvnia",
+      abbreviation: "UAH",
+      symbol: "\u20B4",
+      flagURL: "https://img.geonames.org/flags/x/ua.gif"
+    },
+    {
+      name: "Ugandan Shilling",
+      abbreviation: "UGX",
+      symbol: "USh",
+      flagURL: "https://img.geonames.org/flags/x/ug.gif"
+    },
+    {
+      name: "United States dollar",
+      abbreviation: "USD",
+      symbol: "\u0024",
+      flagURL: "https://img.geonames.org/flags/x/us.gif"
+    },
+    {
+      name: "Uruguayan Peso",
+      abbreviation: "UYU",
+      symbol: "\u0024",
+      flagURL: "https://img.geonames.org/flags/x/uy.gif"
+    },
+    {
+      name: "Uzbekistan Som",
+      abbreviation: "UZS",
+      symbol: "Som",
+      flagURL: "https://img.geonames.org/flags/x/uz.gif"
+    },
+    {
+      name: "Venezuelan Bolívar (old)",
+      abbreviation: "VEF",
+      symbol: "Bs.",
+      flagURL: "https://img.geonames.org/flags/x/ve.gif"
+    },
+    {
+      name: "Venezuelan Bolívar",
+      abbreviation: "VES",
+      symbol: "Bs.",
+      flagURL: "https://img.geonames.org/flags/x/ve.gif"
+    },
+    {
+      name: "Vietnamese Dong",
+      abbreviation: "VND",
+      symbol: "\u20AB",
+      flagURL: "https://img.geonames.org/flags/x/vn.gif"
+    },
+    {
+      name: "Vanuatu Vatu",
+      abbreviation: "VUV",
+      symbol: "VT",
+      flagURL: "https://img.geonames.org/flags/x/vu.gif"
+    },
+    {
+      name: "Samoan tālā",
+      abbreviation: "WST",
+      symbol: "WS",
+      flagURL: "https://img.geonames.org/flags/x/ws.gif"
+    },
+    {
+      name: "Central African CFA franc",
+      abbreviation: "XAF",
+      symbol: "FCFA",
+      flagURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Central_African_Republic.svg/383px-Flag_of_the_Central_African_Republic.svg.png"
+    },
+    {
+      name: "Pure silver",
+      abbreviation: "XAG",
+      symbol: "",
+      flagURL: ""
+    },
+    {
+      name: "Gold",
+      abbreviation: "XAU",
+      symbol: "",
+      flagURL: ""
+    },
+    {
+      name: "Eastern Caribbean dollar",
+      abbreviation: "XCD",
+      symbol: "\u0024",
+      flagURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/OECS_Logo.svg/1200px-OECS_Logo.svg.png"
+    },
+    {
+      name: "West African CFA franc",
+      abbreviation: "XOF",
+      symbol: "CFA",
+      flagURL: ""
+    },
+    {
+      name: "Palladium Ounce",
+      abbreviation: "XPD",
+      symbol: "",
+      flagURL: ""
+    },
+    {
+      name: "CFP franc",
+      abbreviation: "XPF",
+      symbol: "\u20A3",
+      flagURL: ""
+    },
+    {
+      name: "Yemeni Rial",
+      abbreviation: "YER",
+      symbol: "ر.ي",
+      flagURL: "https://img.geonames.org/flags/x/ye.gif"
+    },
+    {
+      name: "South African Rand",
+      abbreviation: "ZAR",
+      symbol: "\u0052",
+      flagURL: "http://www.geonames.org/flags/l/za.gif"
+    },
+    {
+      name: "Zambian Kwacha",
+      abbreviation: "ZMW",
+      symbol: "K",
+      flagURL: "https://img.geonames.org/flags/x/zm.gif"
+    },
   {
-    name: "US Dollar",
-    abbreviation: "USD",
+    name: "Zimbabwean Dollar",
+    abbreviation: "ZWL",
     symbol: "\u0024",
-    flagURL: "http://www.geonames.org/flags/l/us.gif"
-  },
-  {
-    name: "Euro",
-    abbreviation: "EUR",
-    symbol: "\u20AC",
-    flagURL: "https://upload.wikimedia.org/wikipedia/commons/b/b7/Flag_of_Europe.svg"
-  },
-
-  {
-    name: "British Pound",
-    abbreviation: "GBP",
-    symbol: "\u00A3",
-    flagURL: "http://www.geonames.org/flags/l/uk.gif"
-  },
-
-
-
-  {
-    name: "Chinese Yuan Renminbi",
-    abbreviation: "CNY",
-    symbol: "\u00A5",
-    flagURL: "http://www.geonames.org/flags/l/cn.gif"
-  },
-  {
-    name: "Swedish Krona",
-    abbreviation: "SEK",
-    symbol: "\u006B\u0072",
-    flagURL: "http://www.geonames.org/flags/l/se.gif"
-  },
-
-  {
-    name: "Singapore Dollar",
-    abbreviation: "SGD",
-    symbol: "\u0024",
-    flagURL: "http://www.geonames.org/flags/l/sg.gif"
-  },
-  {
-    name: "Hong Kong Dollar",
-    abbreviation: "HKD",
-    symbol: "\u0024",
-    flagURL: "http://www.geonames.org/flags/l/hk.gif"
-  },
-
-
-  {
-    name: "Turkish Lira",
-    abbreviation: "TRY",
-    symbol: "\u20BA",
-    flagURL: "http://www.geonames.org/flags/l/tr.gif"
-  },
-  {
-    name: "Russian Ruble",
-    abbreviation: "RUB",
-    symbol: "\u20BD",
-    flagURL: "http://www.geonames.org/flags/l/ru.gif"
-  },
-
-
-  {
-    name: "South African Rand",
-    abbreviation: "ZAR",
-    symbol: "\u0052",
-    flagURL: "http://www.geonames.org/flags/l/za.gif"
-  },
-  {
-    name: "Philippine Peso",
-    abbreviation: "PHP",
-    symbol: "\u20B1",
-    flagURL: "http://www.geonames.org/flags/l/ph.gif"
-  },
-  {
-    name: "Czech Koruna",
-    abbreviation: "CZK",
-    symbol: "\u004B\u010D",
-    flagURL: "http://www.geonames.org/flags/l/cz.gif"
-  },
-
-
-
-  {
-    name: "Croatian Kuna",
-    abbreviation: "HRK",
-    symbol: "\u006B\u006E",
-    flagURL: "http://www.geonames.org/flags/l/hr.gif"
-  },
-
-  {
-    name: "Romanian Leu",
-    abbreviation: "RON",
-    symbol: "\u006C\u0065\u0069",
-    flagURL: "http://www.geonames.org/flags/l/ro.gif"
-  },
-  {
-    name: "Danish Krone",
-    abbreviation: "DKK",
-    symbol: "\u006B\u0072",
-    flagURL: "http://www.geonames.org/flags/l/dk.gif"
-  },
-  {
-    name: "Thai Baht",
-    abbreviation: "THB",
-    symbol: "\u0E3F",
-    flagURL: "http://www.geonames.org/flags/l/th.gif"
-  },
-  {
-    name: "Polish Zloty",
-    abbreviation: "PLN",
-    symbol: "\u007A\u0142",
-    flagURL: "http://www.geonames.org/flags/l/pl.gif"
-  },
-
+    flagURL: "https://img.geonames.org/flags/x/zw.gif"
+  }
 ];
 
 // Event Listeners
