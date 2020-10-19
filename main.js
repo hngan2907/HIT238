@@ -389,7 +389,7 @@ let currencies = [
       abbreviation: "ILS",
       symbol: "\u20AA",
       flagURL: "http://www.geonames.org/flags/l/il.gif"
-    }
+    },
     {
       name: "Manx Pound",
       abbreviation: "IMP",
@@ -1019,7 +1019,7 @@ let currencies = [
     abbreviation: "ZWL",
     symbol: "\u0024",
     flagURL: "https://img.geonames.org/flags/x/zw.gif"
-  }
+  },
 ];
 
 // Event Listeners
